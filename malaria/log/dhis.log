@@ -1,0 +1,6 @@
+* INFO  10:34:57,279 Environment variable DHIS2_HOME: /usr/local/dhis (TrayApp.java [main])
+* INFO  10:34:57,772 Initialising DHIS 2 Live... (TrayApp.java [main])
+* INFO  10:34:57,906 Loading DHIS 2 on port: 8081 (WebAppServer.java [main])
+* INFO  10:34:58,021 Setting DHIS 2 web app context to: /Users/samboupha/Documents/Desktop/dhis-live 2/webapps/dhis (WebAppServer.java [main])
+* INFO  10:34:58,021 Lifecycle: server starting (TrayApp.java [Thread-0])
+* INFO  10:36:10,114 Lifecycle: server started (TrayApp.java [Thread-0])

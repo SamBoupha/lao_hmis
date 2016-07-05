@@ -1,0 +1,69 @@
+<html>
+<head>
+<link rel="stylesheet" href="//dhis2-cdn.org/v223/ext/resources/css/ext-plugin-gray.css" />
+<script src="//dhis2-cdn.org/v223/ext/ext-all.js"></script>
+<script src="//dhis2-cdn.org/v223/plugin/table.js"></script>
+</head>
+
+<body>
+<div id="table1"></div>
+
+<script>
+
+Ext.onReady(function() {
+
+DHIS.getTable({
+  "columns": [
+    {
+      "dimension": "dx",
+      "items": [
+        {
+          "id": "OdiHJayrsKo",
+          "name": "ANC 2 Coverage"
+        },
+        {
+          "id": "ReUHfIn0pTQ",
+          "name": "ANC 1-3 Dropout Rate"
+        },
+        {
+          "id": "Uvn6LCg7dVU",
+          "name": "ANC 1 Coverage"
+        },
+        {
+          "id": "sB79w2hiLp8",
+          "name": "ANC 3 Coverage"
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "dimension": "pe",
+      "items": [
+        {
+          "id": "LAST_12_MONTHS",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "dimension": "ou",
+      "items": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ]
+    }
+  ],
+  "url": "https://play.dhis2.org/demo",
+  "el": "table1"
+});
+
+});
+
+</script>
+
+</body>
+</html>
